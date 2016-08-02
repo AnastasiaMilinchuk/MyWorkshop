@@ -1,0 +1,124 @@
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+.section{
+    padding-left: 8%;
+}
+.leftnav{
+    width: 15% !important;
+}
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+.row.content {height: 1500px}
+
+/* Set gray background color and 100% height */
+.sidenav {
+    background-color: #f1f1f1;
+    height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {height: auto;}
+}
+
+.article-title{
+    position: relative;
+    float: left;
+    width: 50%;
+}
+.like-button{
+    background-color: #ffffff;
+    border: none;
+}
+#map {
+    width: 100%;
+    height: 450px;
+    background-color: #CCC;
+}
+.main{
+    height: auto;
+    margin-left: 2%;
+    width: 80%;
+}
+.new-order-button{
+    position: relative;
+    float: left;
+}
+.new-order-block{
+    position: relative;
+    float: left;
+    height: auto;
+    margin-right: 30%;
+    width: 100%;
+}
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 450px}
+
+/* Set gray background color and 100% height */
+.sidenav {
+    width: 15%;
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+    background-color: #555;
+    color: white;
+    /*padding: 15px;*/
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {height:auto;}
+}
+.navbar-header{
+    float: left;
+    position: relative;
+    width: 15%;
+    margin: 0;
+    padding: 0;
+}
+.navbar-nav{
+    margin-left: 3%;
+}
+.glyphicon{
+    color: crimson;
+}
+.glyphicon-search{
+    color: white;
+}
+.container-fluid{
+    height: 85%;
+}
+.row.content{
+    height: 100%;
+}
+.footer{
+    height: 6%;
+}
+
