@@ -1,5 +1,5 @@
-.idea
-lib
-META-INF
-out
-target
+.idea/
+lib/
+META-INF/
+out/
+target/
