@@ -29,11 +29,9 @@
                 <span class="glyphicon glyphicon-file"></span> <spring:message code="common.reports"/></a></li>
             <li><a href="/MyWorkshop/settings">
                 <span class="glyphicon glyphicon-cog"></span> <spring:message code="common.setting"/></a></li>
-            <span style="float: right">
-                <a href="?lang=en">en</a>
-                |
-                <a href="?lang=ru">ru</a>
-            </span>
+            <li><span class="glyphicon glyphicon-globe"></span>
+                <span><a href="?lang=en">en</a></span>
+                <span><a href="?lang=ru">ru</a></span></li>
             <%--<sec:authorize access="!isAuthenticated()">--%>
                 <%--<li><a href="/diploma1/login">Login</a></li>--%>
             <%--</sec:authorize>--%>

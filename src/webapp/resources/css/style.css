@@ -75,7 +75,7 @@ footer {
 
 /* Set gray background color and 100% height */
 .sidenav {
-    width: 15%;
+    width: 18%;
     padding-top: 20px;
     background-color: #f1f1f1;
     height: 100%;
@@ -99,7 +99,7 @@ footer {
 .navbar-header{
     float: left;
     position: relative;
-    width: 15%;
+    width: 18%;
     margin: 0;
     padding: 0;
 }

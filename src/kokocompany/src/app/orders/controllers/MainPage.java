@@ -14,8 +14,14 @@ import java.util.List;
 @Controller
 public class MainPage {
     @RequestMapping(value = "/", method = RequestMethod.GET)
-    public String onLoad(){
+     public String onLoad(){
         System.out.println("kokoko");
-        return "home";
+        return "orders";
     }
+    @RequestMapping(value = "orders", method = RequestMethod.GET)
+    public String orders(){
+        return "orders";
+    }
+
+
 }
